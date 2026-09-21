@@ -17,6 +17,12 @@ The system is designed for farmers who may have:
 The prototype supports multiple farmer-access channels and provides an operational dashboard for procurement
 teams.
 
+Problem Statement - Farmers often face long waiting times, lack of information regarding procurement schedules, and uncertainty about procurement status.
+
+Proposed Solution:
+
+Our Smart Doorstep Agricultural Procurement System is a Python and Streamlit-based intelligent procurement platform designed to bring the procurement service directly to farmers instead of requiring them to travel to procurement centres. The system provides multiple farmer access channels such as **Tamil voice requests, Touch App, SMS, IVR, Field Officer and Offline Queue**, making the platform accessible even for farmers with limited digital connectivity. The **Request Agent** understands and converts farmer requests into structured procurement information such as crop, quantity, location and collection date. The **Farmer Pool Agent** collects and organizes requests from multiple farmers into a centralized farmer pool. The **Scheduling Agent** analyzes crop quantities, priorities and vehicle capacity to generate capacity-aware collection plans while minimizing the number of vehicles required. The **Fleet Agent** manages available vehicles, drivers, route assignments and vehicle status. Finally, the **Tracking Agent** monitors the complete procurement lifecycle from request received, vehicle assignment and route movement to farmer pickup and collection completion. After successful collection, the system can generate a **digital procurement receipt** containing quantity, price, quality and payment status. Thus, the solution provides an end-to-end digital workflow for **farmer request → farmer pooling → intelligent scheduling → fleet allocation → doorstep collection → tracking → digital receipt and payment status**.
+
 Key Objectives
 
 The main objectives of this project are:
